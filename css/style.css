@@ -160,19 +160,20 @@ header .follow a:hover{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
 .home .image{
-    flex:1 1 40rem;
+    flex: 1 1 40rem;
+    margin-right: -40px;
 }
 
 .home .image img{
-    width:100%;
+    width: 90%;
 }
 
 .home .content{
-    flex:1 1 40rem;
+    flex: 1 1 40rem;
 }
 
 .home .content .hi{
@@ -181,7 +182,7 @@ header .follow a:hover{
 }
 
 .home .content h3{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color:#111;
     text-transform: uppercase;
 }
